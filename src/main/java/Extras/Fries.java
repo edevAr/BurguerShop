@@ -1,8 +1,8 @@
-package Vegetables;
+package Extras;
 
-public abstract class Vegetable {
+public abstract class Fries {
     protected String name;
-    protected String price;
+    protected Double price;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public abstract class Vegetable {
         this.name = name;
     }
 
-    public String getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
     public abstract void display();

@@ -1,8 +1,7 @@
-package Combos;
+package Drinks;
 
-public abstract class Combo {
+public abstract class Soda {
     protected String name;
-    protected String description;
     protected Double price;
 
     public String getName() {
@@ -13,14 +12,6 @@ public abstract class Combo {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public Double getPrice() {
         return price;
     }
@@ -28,4 +19,5 @@ public abstract class Combo {
     public void setPrice(Double price) {
         this.price = price;
     }
+    public abstract void display();
 }
