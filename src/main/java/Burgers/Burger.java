@@ -1,8 +1,9 @@
-package Complements;
+package Burgers;
 
-public abstract class Complement {
+public abstract class Burger {
     protected String name;
-    protected String price;
+    protected Double price;
+
     public String getName() {
         return name;
     }
@@ -11,11 +12,11 @@ public abstract class Complement {
         this.name = name;
     }
 
-    public String getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
