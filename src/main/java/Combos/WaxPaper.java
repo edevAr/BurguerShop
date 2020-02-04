@@ -14,7 +14,7 @@ public class WaxPaper extends Combo implements ICombo {
         name = "Wax Paper";
         description = "";
         cheeseBurger = new ClassicBurger();
-        soda = new Coke();
+        soda = new Lemonade();
         price = getPrice();
     }
     @Override
